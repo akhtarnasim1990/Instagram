@@ -1,0 +1,66 @@
+.main{
+    width: 30%;
+    margin: 10px;
+}
+.Profile {
+    display: block;
+    text-align: center;
+    
+}
+.Img img{
+    width: 100px;
+    height: 100px;
+    border-radius:50px ;
+}
+.Profile button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+.like {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+}
+.story {
+    justify-content: left;
+}
+
+.imagesCtr {
+    display: flex;
+    width: 30%;
+}
+
+.imagesDiv{
+    text-align: center;
+    margin: 0 10px;
+}
+
+.images {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    width: 300px;
+    height: 50px;
+    box-shadow: 5px 10px 20px rgb(255, 192, 216);
+    background-image: linear-gradient(120deg , #dd4fa2 , orange);
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    border: none;
+}

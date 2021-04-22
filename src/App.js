@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import Nav from './components/Nav';
+import Cart from './components/Cart';
+import Profile from './components/Profile';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {/* <h1>Allah hu akbar</h1> */}
+      <div className="grid">
+        <Nav />
+        <Cart />
+      </div>
+      <Profile />
     </div>
   );
 }
